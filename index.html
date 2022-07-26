@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,15 +10,39 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
-    <div class="circle-container">
-            <i id="shuffle-icon" class="fa fa-random" aria-hidden="true"></i>
-        <p id = 'same'class="first-letter">j</p>
-        <p id="same" class="second-letter">v</p>
-        <p id="same" class="third-letter">a</p>
-        <p id="same" class="fourth-letter">l</p>
-        <p id="same" class="fifth-letter">s</p>
+
+    <div class="main">
+        <div id="result">
+            <div id="score">Score :</div>
+            <div id="tries">Total Tries :</div>
+        </div>
+        <div class="">
+            <div class="circle-container">
+                <i id="shuffle-icon" class="fa fa-random" aria-hidden="true"></i>
+                <p id='same' class="first-letter">r</p>
+                <p id="same" class="second-letter">a</p>
+                <p id="same" class="third-letter">n</p>
+                <p id="same" class="fourth-letter">e</p>
+                <p id="same" class="fifth-letter">c</p>
+            </div>
+            <div class="input-value">
+                <p>type a word</p>
+                <input type="text" id="box">
+                <button type="button" id="btn-1">
+                    check
+                </button>
+                <div class="submit">
+                    <button type="button" id="btn-2">
+                        end game
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
+
     <script src="/script.js"></script>
 </body>
+
 </html>
