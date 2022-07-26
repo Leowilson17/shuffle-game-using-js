@@ -1,10 +1,15 @@
+.main{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    margin-top: 30px; 
+}
 .circle-container{
     margin: auto;
     width: 500px;
     height: 400px;
     border-radius: 50%;
     background-color: #2F4F4F;
-    transform: translateY(125px);
     position: relative;
 }
 .first-letter{
@@ -55,4 +60,51 @@
     position: absolute;
     left: 225px;
     top: 170px;
+}
+.input-value{
+    line-height: 50px;
+    text-align: center;
+}
+.input-value p{
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.input-value input{
+    font-size: 22px;
+    text-transform: uppercase;
+    outline: none;
+    border:2px solid black;
+}
+.input-value button{
+    font-size: 22px;
+    text-transform: uppercase;
+    background-color: crimson;
+    border-color: white;
+}
+.input-value input:focus{
+    border:royalblue solid 2px;
+}
+#result{
+    border: 2px solid blue;
+    height: auto;
+    width: 350px;
+}
+#result p{
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    text-transform: uppercase;
+}
+#result div{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(243, 16, 141);
+}
+.score{
+    text-align: center;
+    font-size: 25px;
+    height: auto;
 }
